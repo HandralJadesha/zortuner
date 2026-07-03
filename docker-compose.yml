@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  database:
+    image: mongo:latest
+    container_name: layerly_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - layerly_network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: layerly_api
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://database:27017/layerly
+      - JWT_SECRET=layerly_jwt_secret_key_change_me_in_prod
+      - CLIENT_URL=http://localhost:3000
+    depends_on:
+      - database
+    networks:
+      - layerly_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: layerly_client
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
+    depends_on:
+      - backend
+    networks:
+      - layerly_network
+
+volumes:
+  mongo_data:
+
+networks:
+  layerly_network:
+    driver: bridge

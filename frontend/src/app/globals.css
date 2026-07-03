@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-fortuner: 'Orbitron', sans-serif;
+  --color-primary: #ea580c; /* Orange 600 */
+  --color-secondary: #f97316; /* Orange 500 */
+  --color-accent: #fb923c; /* Orange 400 */
+
+  --color-brand-dark: #4a4a4a; /* Softer dark */
+  --color-brand-card: rgba(234, 88, 12, 0.2);
+  --color-brand-light: #fff7ed; /* Orange 50 */
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-slow: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-spin-slow: spin-slow 20s linear infinite;
+  --animate-ken-burns: ken-burns 15s ease-out forwards;
+  --animate-marquee: marquee 35s linear infinite;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+  @keyframes pulse-slow {
+    0%,
+    100% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.6;
+    }
+  }
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes ken-burns {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.15);
+    }
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+:root {
+  --bg-color: #fafafa; 
+  --text-color: #111827; /* Dark text */
+  color-scheme: light;
+
+  --bg-window: #f8fafc; /* Very light slate */
+  --bg-container: #ffffff; /* White */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.bg-window {
+  background-color: var(--bg-window) !important;
+}
+
+.bg-container {
+  background-color: var(--bg-container) !important;
+}
+
+body {
+  background-color: var(--bg-window);
+  color: var(--text-color);
+  overflow-x: hidden;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    sans-serif;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(44, 0, 102, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+}
+
+.glass-navbar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(44, 0, 102, 0.05);
+}
+
+.hover-glow {
+  transition: all 0.3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 25px rgba(234, 88, 12, 0.3);
+  border-color: rgba(234, 88, 12, 0.4);
+  transform: translateY(-4px);
+}
+
+.ambient-glow {
+  filter: blur(120px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(234, 88, 12, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(234, 88, 12, 0.15) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(249, 115, 22, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 115, 22, 0.8);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #ea580c 0%, #f97316 50%, #fb923c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Image mask for seamless edges */
+.mask-edges {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}

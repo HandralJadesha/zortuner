@@ -1,0 +1,9 @@
+import ClientPage from './ClientPage.jsx';
+
+export function generateStaticParams() {
+  return [{ id: 'placeholder' }];
+}
+
+export default function Page() {
+  return <ClientPage />;
+}

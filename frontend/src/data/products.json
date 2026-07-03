@@ -1,0 +1,185 @@
+[
+  {
+    "_id": "6a3a2f49cbfef3997a0bc034",
+    "title": "Lord Shiva Trident Wall Relief",
+    "slug": "lord-shiva-trident-wall-relief",
+    "description": "A stunning 3D printed wall relief of Lord Shiva holding his Trishul. Crafted in a sleek black finish, this geometric backplate design adds a modern touch to divine home decor.",
+    "category": {
+      "_id": "6a3a2f49cbfef3997a0bc016",
+      "name": "Home Decor",
+      "slug": "home-decor",
+      "description": "Minimalist luxury vases, geometric planters, and artistic sculptures.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-06-23T07:01:29.291Z",
+      "updatedAt": "2026-06-23T07:01:29.291Z",
+      "__v": 0
+    },
+    "basePrice": 999,
+    "images": [
+      "/images/products/0514babdc2430c86-1782804989779.jpeg"
+    ],
+    "materials": [],
+    "colors": [],
+    "dimensions": {
+      "length": 150,
+      "width": 25,
+      "height": 250
+    },
+    "weight": 400,
+    "inventory": 20,
+    "averageRating": 0,
+    "numReviews": 0,
+    "isFeatured": true,
+    "isBestseller": false,
+    "isNewArrival": false,
+    "createdAt": "2026-06-23T07:01:29.427Z",
+    "updatedAt": "2026-06-30T07:36:32.323Z",
+    "__v": 0,
+    "isHidden": false
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc036",
+    "title": "Ayodhya Ram Mandir 3D Model",
+    "slug": "ayodhya-ram-mandir-3d-model",
+    "description": "An intricately detailed 3D printed scale model of the majestic Ayodhya Ram Mandir. A perfect spiritual centerpiece for your home or pooja room.",
+    "category": {
+      "_id": "6a3a2f49cbfef3997a0bc016",
+      "name": "Home Decor",
+      "slug": "home-decor",
+      "description": "Minimalist luxury vases, geometric planters, and artistic sculptures.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-06-23T07:01:29.291Z",
+      "updatedAt": "2026-06-23T07:01:29.291Z",
+      "__v": 0
+    },
+    "basePrice": 1999,
+    "images": [
+      "/images/products/f159eb610b608c8c-1782805016107.jpeg"
+    ],
+    "materials": [],
+    "colors": [],
+    "dimensions": {
+      "length": 180,
+      "width": 140,
+      "height": 160
+    },
+    "weight": 600,
+    "inventory": 10,
+    "averageRating": 0,
+    "numReviews": 0,
+    "isFeatured": false,
+    "isBestseller": true,
+    "isNewArrival": false,
+    "createdAt": "2026-06-23T07:01:29.431Z",
+    "updatedAt": "2026-06-30T07:36:57.938Z",
+    "__v": 0,
+    "isHidden": false
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc03e",
+    "title": "Lord Ganesha Idols (Set of 3 Finishes)",
+    "slug": "lord-ganesha-idols-set",
+    "description": "A gorgeous set of 3D printed Lord Ganesha idols, representing wisdom, success, and good fortune. This listing includes a beautifully detailed idol available in premium gold, matte white, or sleek obsidian black finishes.",
+    "category": {
+      "_id": "6a3a2f49cbfef3997a0bc016",
+      "name": "Home Decor",
+      "slug": "home-decor",
+      "description": "Minimalist luxury vases, geometric planters, and artistic sculptures.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-06-23T07:01:29.291Z",
+      "updatedAt": "2026-06-23T07:01:29.291Z",
+      "__v": 0
+    },
+    "basePrice": 300,
+    "images": [
+      "/images/products/3.jpeg"
+    ],
+    "materials": [],
+    "colors": [],
+    "dimensions": {
+      "length": 80,
+      "width": 80,
+      "height": 120
+    },
+    "weight": 250,
+    "inventory": 30,
+    "averageRating": 0,
+    "numReviews": 0,
+    "isFeatured": false,
+    "isBestseller": false,
+    "isNewArrival": true,
+    "createdAt": "2026-06-23T07:01:29.486Z",
+    "updatedAt": "2026-06-23T07:01:29.486Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a4374c632bc06f0285beed3",
+    "title": "Cumulis Table Lamp",
+    "slug": "cumulis-table-lamp",
+    "description": "The Cumulis Lamp is a beautifully crafted 3D-printed lighting piece inspired by the soft, flowing forms of clouds. Its layered texture creates a warm ambient glow, blending modern design with organic elegance.",
+    "category": {
+      "_id": "6a3a2f49cbfef3997a0bc016",
+      "name": "Home Decor",
+      "slug": "home-decor",
+      "description": "Minimalist luxury vases, geometric planters, and artistic sculptures.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-06-23T07:01:29.291Z",
+      "updatedAt": "2026-06-23T07:01:29.291Z",
+      "__v": 0
+    },
+    "basePrice": 1700,
+    "images": [
+      "/images/products/913b60e7cb13874f-1782805395349.jpeg"
+    ],
+    "materials": [],
+    "colors": [],
+    "dimensions": {
+      "length": 160,
+      "height": 200
+    },
+    "weight": "200-700",
+    "inventory": 5,
+    "averageRating": 0,
+    "numReviews": 0,
+    "isFeatured": false,
+    "isBestseller": false,
+    "isNewArrival": true,
+    "isHidden": false,
+    "createdAt": "2026-06-30T07:48:22.027Z",
+    "updatedAt": "2026-06-30T07:48:22.027Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a43756532bc06f0285beed7",
+    "title": "The Swirl lamp ",
+    "slug": "the-swirl-lamp",
+    "description": "The Swirl Lamp features a mesmerizing twisted design that brings movement and elegance to any space.",
+    "category": {
+      "_id": "6a3a2f49cbfef3997a0bc016",
+      "name": "Home Decor",
+      "slug": "home-decor",
+      "description": "Minimalist luxury vases, geometric planters, and artistic sculptures.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-06-23T07:01:29.291Z",
+      "updatedAt": "2026-06-23T07:01:29.291Z",
+      "__v": 0
+    },
+    "basePrice": 997,
+    "images": [
+      "/images/products/9efc21706bd9a728-1782805858913.jpeg"
+    ],
+    "materials": [],
+    "colors": [],
+    "weight": "300-700",
+    "inventory": 5,
+    "averageRating": 0,
+    "numReviews": 0,
+    "isFeatured": false,
+    "isBestseller": false,
+    "isNewArrival": true,
+    "isHidden": false,
+    "createdAt": "2026-06-30T07:51:01.184Z",
+    "updatedAt": "2026-06-30T07:51:01.184Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "6a3a2f49cbfef3997a0bc016",
+    "name": "Home Decor",
+    "slug": "home-decor",
+    "description": "Minimalist luxury vases, geometric planters, and artistic sculptures.",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+    "createdAt": "2026-06-23T07:01:29.291Z",
+    "updatedAt": "2026-06-23T07:01:29.291Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc018",
+    "name": "Anime Figures",
+    "slug": "anime-figures",
+    "description": "High-detail collectible figures and customized action characters.",
+    "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+    "createdAt": "2026-06-23T07:01:29.296Z",
+    "updatedAt": "2026-06-23T07:01:29.296Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc01a",
+    "name": "Gaming Accessories",
+    "slug": "gaming-accessories",
+    "description": "Controller docks, custom keycaps, headset stands, and desk elements.",
+    "image": "https://images.unsplash.com/photo-1600861195091-690c92f1d2cc?auto=format&fit=crop&w=800&q=80",
+    "createdAt": "2026-06-23T07:01:29.299Z",
+    "updatedAt": "2026-06-23T07:01:29.299Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc01c",
+    "name": "Desk Accessories",
+    "slug": "desk-accessories",
+    "description": "Premium phone docks, organizer trays, and modern geometric pen cups.",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80",
+    "createdAt": "2026-06-23T07:01:29.301Z",
+    "updatedAt": "2026-06-23T07:01:29.301Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc01e",
+    "name": "Lamps & Lighting",
+    "slug": "lamps-lighting",
+    "description": "Stunning lit lithophanes, planetary globes, and custom shadow projectors.",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+    "createdAt": "2026-06-23T07:01:29.303Z",
+    "updatedAt": "2026-06-23T07:01:29.303Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc020",
+    "name": "Personalized Gifts",
+    "slug": "personalized-gifts",
+    "description": "Custom keyrings, named plaques, photo frames, and customized models.",
+    "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80",
+    "createdAt": "2026-06-23T07:01:29.309Z",
+    "updatedAt": "2026-06-23T07:01:29.309Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc022",
+    "name": "3D Printers",
+    "slug": "3d-printers",
+    "description": "State of the art, high speed Bambu Lab 3D printers for all your creative needs.",
+    "image": "https://store.bblcdn.com/s7/default/c2d75be87c2946dba3ab5074fb4afe78/P2S_Combo.jpg",
+    "createdAt": "2026-06-23T07:01:29.312Z",
+    "updatedAt": "2026-06-23T07:01:29.312Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a3a2f49cbfef3997a0bc024",
+    "name": "Filaments",
+    "slug": "filaments",
+    "description": "Premium quality Bambu Lab filaments including PLA, PETG, and special effects.",
+    "image": "https://store.bblcdn.com/s7/default/f00291f9a7464d948b9f28fad351932c/White.jpg",
+    "createdAt": "2026-06-23T07:01:29.314Z",
+    "updatedAt": "2026-06-23T07:01:29.314Z",
+    "__v": 0
+  }
+]
