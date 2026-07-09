@@ -29,8 +29,14 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Hostinger
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This app is configured to run as a Node.js Next.js app on Hostinger.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Before deploying, set:
+
+- `NEXT_PUBLIC_API_URL=https://your-backend-domain.com/api/v1`
+
+Hostinger app root should point to `zortuner/frontend` if you import the repository directly from GitHub.
+
+Use Node.js 20.9 or newer for the frontend app.
